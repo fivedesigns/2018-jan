@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+/* DOUBLE BORDER CTA */
+.double-border{
+    margin-top: 47px;
+    float: left !important;
+}
+.double-border p{
+    color: black;
+    margin: 0;
+    font-family: fantasy;
+}
+.double-border a:hover {
+    color:transparent;
+    background:transparent;
+    text-decoration: none;
+}
+.double-border a{
+    position:relative;
+    display:inline-block;
+    padding: 9px 30px;
+    text-decoration: none;
+}
+.double-border a:before, .double-border a:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border: 1px solid #ebebeb;
+}
+.double-border a:before{
+    left: -5px;
+    top: -5px;
+}
+/* END DOUBLE BORDER CTA */
+</style>    
+</head>
+
+<body>
+    
+
+<div class="double-border">
+    <a href="http://tbc">
+        <p>TICKETS</p>
+    </a>
+</div>
+
+</body>
+    
+</html>
